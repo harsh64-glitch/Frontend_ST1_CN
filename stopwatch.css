@@ -1,0 +1,33 @@
+body{
+    background-image:linear-gradient(to right, rgb(188, 171, 204),rgb(241, 234, 234));
+}
+.display{
+    font-size: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-right: 25px;
+}
+.buttons{
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    height:3rem;
+    width:10rem;
+    font-family: Trebuchet MS;
+    font-size: 1.5rem;
+}
+.allbuttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.buttons:hover{
+    scale: 1.04;
+    color: aliceblue;
+    background-color: rgb(224, 147, 224);
+    border-color: aliceblue;
+}
